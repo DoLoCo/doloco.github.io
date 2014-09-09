@@ -16,6 +16,7 @@ jQuery(window).load(function() {
 $(".video-container").fitVids();
 
 
+
 /* =================================
 ===  MAILCHIMP                 ====
 =================================== */
@@ -56,6 +57,7 @@ if (matchMedia('(max-width: 480px)').matches) {
         $(".navbar-toggle").click();
     });
 }
+
 
 /* NAVIGATION VISIBLE ON SCROLL */
 
@@ -211,7 +213,6 @@ $("#subscribe").submit(function (e) {
 
 
 
-
 /* =================================
 ===  CONTACT FORM          ====
 =================================== */
@@ -254,6 +255,7 @@ $("#contact").submit(function (e) {
 $('.expand-form').simpleexpand({
     'defaultTarget': '.expanded-contact-form'
 });
+
 
 
 /* =================================
