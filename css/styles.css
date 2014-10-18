@@ -683,7 +683,7 @@ object {
 }
 
 .download .subscription-form-container {
-    padding-bottom: 80px;
+    padding-bottom: 0px;
 }
 
 .download .subscription-form .input-box {
