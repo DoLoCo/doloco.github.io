@@ -680,6 +680,11 @@ object {
 
 .download .download-container {
     padding-bottom: 80px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
 }
 
 .download .subscription-form-container {
