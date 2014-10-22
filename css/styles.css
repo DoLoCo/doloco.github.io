@@ -81,6 +81,18 @@ li {
     list-style: none;
 }
 
+.navbar-brand {
+    color: rgba(234, 136, 37, 1) !important;
+}
+
+.alert-mailchimp {
+    width: 300px;
+    text-align: left;
+    margin: 20px auto;
+    background-color: transparent;
+    color: #fff;
+}
+
 
 /* PRE LOADER */
 .preloader {
@@ -349,6 +361,12 @@ header .intro-section h5 {
 
 header .intro-section .buttons {
     margin-top: 35px;
+}
+
+.intro .logo-letter {
+    font-weight: 700;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    color: rgba(234, 136, 37, 1);
 }
 
 /*---------------------------------------
