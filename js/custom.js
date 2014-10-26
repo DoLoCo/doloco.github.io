@@ -30,6 +30,9 @@ function mailchimpCallback(resp) {
      if (resp.result === 'success') {
         $('.subscription-success').html('<i class="icon_check_alt2"></i><br/>' + resp.msg).fadeIn(1000);
         $('.subscription-error').fadeOut(500);
+        setTimeout(function() {
+            $('.subscription-success').fadeOut(500);
+        }, 5000);
         
     } else if(resp.result === 'error') {
         $('.subscription-error').html('<i class="icon_close_alt2"></i><br/>' + resp.msg).fadeIn(1000);
